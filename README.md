@@ -1,9 +1,12 @@
-tkdu
-====
+# tkdu
 
-Fork of Jeff Epler's tkdu program to visualize disk usage and `du` output
+Visualize the output of `du`.
 
-See original version [here](https://github.com/daniel-beck/tkdu/commit/55ef0278c58b5a03687180bb5e5722fa3a22d7a5) or [on its website](http://www.unpythonic.net/jeff/tkdu/).
+## Usage
+
+    df -a / | tkdu.py -
+
+![tkdu screenshot](./docs/screenshot.png)
 
 
 ```
@@ -21,3 +24,10 @@ Controls:
   * Press `1`..`9`: Show that many nested levels
   * Press `0`: Show man nested levels
 ```
+
+## History
+
+This is a fork of [Daniel Beck's fork] of [Jeff Epler's original tkdu] to visualize disk usage and `du` output.
+
+[Daniel Beck's fork]: https://github.com/daniel-beck/tkdu
+[Jeff Epler's original tkdu]: https://web.archive.org/web/20090113182447/http://unpythonic.net:80/jeff/tkdu/
