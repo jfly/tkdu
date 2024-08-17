@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tkdu"
+dependencies = []
+dynamic = ["version"]
+
+[project.scripts]
+tkdu = "tkdu.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
